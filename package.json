@@ -1,0 +1,63 @@
+{
+  "name": "@citeroute/edge",
+  "version": "1.0.1",
+  "description": "Zero-dependency Edge SDK for AI bot detection, active semantic content optimization, and CiteRoute telemetry.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./next": {
+      "types": "./dist/adapters/nextjs.d.ts",
+      "default": "./dist/adapters/nextjs.js"
+    },
+    "./cloudflare": {
+      "types": "./dist/adapters/cloudflare.d.ts",
+      "default": "./dist/adapters/cloudflare.js"
+    },
+    "./express": {
+      "types": "./dist/adapters/express.d.ts",
+      "default": "./dist/adapters/express.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "citeroute",
+    "geo",
+    "generative-engine-optimization",
+    "edge",
+    "cloudflare-workers",
+    "nextjs-middleware",
+    "ai-agents",
+    "agent.json",
+    "llms.txt",
+    "gptbot",
+    "perplexitybot"
+  ],
+  "author": "CiteRoute Inc.",
+  "license": "Apache-2.0",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tuyishimire-lab/omni-route.git",
+    "directory": "packages/edge"
+  },
+  "homepage": "https://www.citeroute.com/docs",
+  "bugs": {
+    "url": "https://github.com/Tuyishimire-lab/omni-route/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
