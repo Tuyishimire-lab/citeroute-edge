@@ -2,6 +2,8 @@
 
 **Official zero-dependency Edge SDK for AI bot detection, active semantic content optimization, and CiteRoute telemetry.**
 
+[![npm version](https://img.shields.io/npm/v/@citeroute/edge.svg?color=05AD98)](https://www.npmjs.com/package/@citeroute/edge)
+[![npm downloads](https://img.shields.io/npm/dw/@citeroute/edge.svg?color=05AD98)](https://www.npmjs.com/package/@citeroute/edge)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-0-success.svg)]()
 [![Edge Ready](https://img.shields.io/badge/edge-ready-black.svg)]()
