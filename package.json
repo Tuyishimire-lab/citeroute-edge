@@ -1,6 +1,6 @@
 {
   "name": "@citeroute/edge",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Zero-dependency Edge SDK for AI bot detection, active semantic content optimization, and CiteRoute telemetry.",
   "type": "module",
   "main": "./dist/index.js",
